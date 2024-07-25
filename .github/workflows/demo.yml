@@ -28,6 +28,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: run multi-line script
-           run: |
-             echo"hello github actions"
-             Get-Date
+        run: |
+          echo"hello github actions"
+          Get-Date
